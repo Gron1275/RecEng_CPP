@@ -1,0 +1,15 @@
+﻿  RecEng.cpp
+C:\Users\Grennon\source\repos\RecEng\RecEng.h(7,38): warning C4091: '__declspec(dllexport)': ignored on left of 'Matrix' when no variable is declared
+C:\Users\Grennon\source\repos\RecEng\RecEng.h(8,56): error C2526: 'transpose': C linkage function cannot return C++ class 'Matrix'
+C:\Users\Grennon\source\repos\RecEng\RecEng.h(7): message : see declaration of 'Matrix'
+C:\Users\Grennon\source\repos\RecEng\RecEng.h(9,73): error C2526: 'dotProduct': C linkage function cannot return C++ class 'Matrix'
+C:\Users\Grennon\source\repos\RecEng\RecEng.h(7): message : see declaration of 'Matrix'
+C:\Users\Grennon\source\repos\RecEng\RecEng.cpp(33,2): warning C4091: '__declspec(dllexport)': ignored on left of 'Matrix' when no variable is declared
+C:\Users\Grennon\source\repos\RecEng\RecEng.cpp(34,46): error C2556: 'Matrix transpose(Matrix)': overloaded function differs only by return type from 'void transpose(Matrix)'
+C:\Users\Grennon\source\repos\RecEng\RecEng.h(8): message : see declaration of 'transpose'
+C:\Users\Grennon\source\repos\RecEng\RecEng.cpp(34,19): error C2371: 'transpose': redefinition; different basic types
+C:\Users\Grennon\source\repos\RecEng\RecEng.h(8): message : see declaration of 'transpose'
+C:\Users\Grennon\source\repos\RecEng\RecEng.cpp(38,62): error C2556: 'Matrix dotProduct(Matrix,int **)': overloaded function differs only by return type from 'void dotProduct(Matrix,int **)'
+C:\Users\Grennon\source\repos\RecEng\RecEng.h(9): message : see declaration of 'dotProduct'
+C:\Users\Grennon\source\repos\RecEng\RecEng.cpp(38,19): error C2371: 'dotProduct': redefinition; different basic types
+C:\Users\Grennon\source\repos\RecEng\RecEng.h(9): message : see declaration of 'dotProduct'
