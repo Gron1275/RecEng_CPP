@@ -4,6 +4,5 @@
 #else
 #define RECENG_API __declspec(dllimport)
 #endif
-extern "C++" struct RECENG_API Matrix;
-extern "C++" RECENG_API Matrix transpose(Matrix inMatrix);
-extern "C++" RECENG_API Matrix dotProduct(Matrix inMatrix, int **inVector);
+extern "C" RECENG_API struct Person;
+extern "C" RECENG_API bool ExpandCluster(Person inPerson, int ClusterID);
